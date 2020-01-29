@@ -12,7 +12,9 @@
 		BB38AD5723E1285300DE374F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB38AD5623E1285300DE374F /* Assets.xcassets */; };
 		BB38AD5A23E1285300DE374F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB38AD5823E1285300DE374F /* LaunchScreen.storyboard */; };
 		BB38AD6523E12D2C00DE374F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB38AD6423E12D2C00DE374F /* Main.storyboard */; };
-		BB38AD6823E12D8E00DE374F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB38AD6723E12D8E00DE374F /* ViewController.swift */; };
+		BB38AD6E23E131E000DE374F /* ColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB38AD6D23E131E000DE374F /* ColorsTableViewController.swift */; };
+		BB38AD7023E1320E00DE374F /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB38AD6F23E1320E00DE374F /* ColorsViewController.swift */; };
+		BB38AD7223E1361000DE374F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB38AD7123E1361000DE374F /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +25,9 @@
 		BB38AD5923E1285300DE374F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB38AD5B23E1285300DE374F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB38AD6423E12D2C00DE374F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
-		BB38AD6723E12D8E00DE374F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../../../../.Trash/ViewController.swift; sourceTree = "<group>"; };
+		BB38AD6D23E131E000DE374F /* ColorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewController.swift; sourceTree = "<group>"; };
+		BB38AD6F23E1320E00DE374F /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		BB38AD7123E1361000DE374F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +72,6 @@
 		BB38AD6123E12C0900DE374F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BB38AD6723E12D8E00DE374F /* ViewController.swift */,
 				BB38AD4D23E1285100DE374F /* AppDelegate.swift */,
 				BB38AD4F23E1285100DE374F /* SceneDelegate.swift */,
 				BB38AD5623E1285300DE374F /* Assets.xcassets */,
@@ -80,6 +83,8 @@
 		BB38AD6223E12CAC00DE374F /* View Controlers */ = {
 			isa = PBXGroup;
 			children = (
+				BB38AD6D23E131E000DE374F /* ColorsTableViewController.swift */,
+				BB38AD6F23E1320E00DE374F /* ColorsViewController.swift */,
 			);
 			path = "View Controlers";
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 		BB38AD6623E12D3900DE374F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BB38AD7123E1361000DE374F /* Color.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,9 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB38AD6823E12D8E00DE374F /* ViewController.swift in Sources */,
+				BB38AD6E23E131E000DE374F /* ColorsTableViewController.swift in Sources */,
 				BB38AD4E23E1285100DE374F /* AppDelegate.swift in Sources */,
 				BB38AD5023E1285100DE374F /* SceneDelegate.swift in Sources */,
+				BB38AD7223E1361000DE374F /* Color.swift in Sources */,
+				BB38AD7023E1320E00DE374F /* ColorsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
