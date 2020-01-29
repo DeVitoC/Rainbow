@@ -42,7 +42,18 @@ class ColorsTableViewController: UITableViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        // 1. Make sure you are using the correct segue
+        if segue.identifier == "ToDetailViewController" {
+            // 2. Get the instance of your dtail view from the segue's destination
+            // 3. Get the index path for the row the user tapped
+            if let detailVC = segue.destination as? ColorsViewController,
+                let indexPath = tableView.indexPathForSelectedRow {
+                // 4. Initialize color with indexpath
+                let color = colors[indexPath.row]
+                
+                // 5. Passs the color to the detail view
+                detailVC.cellColor = color
+            }
+        }
     }
 }
