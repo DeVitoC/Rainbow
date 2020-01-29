@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		BB38AD4E23E1285100DE374F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB38AD4D23E1285100DE374F /* AppDelegate.swift */; };
 		BB38AD5023E1285100DE374F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB38AD4F23E1285100DE374F /* SceneDelegate.swift */; };
-		BB38AD5223E1285100DE374F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB38AD5123E1285100DE374F /* ViewController.swift */; };
-		BB38AD5523E1285100DE374F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB38AD5323E1285100DE374F /* Main.storyboard */; };
 		BB38AD5723E1285300DE374F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB38AD5623E1285300DE374F /* Assets.xcassets */; };
 		BB38AD5A23E1285300DE374F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB38AD5823E1285300DE374F /* LaunchScreen.storyboard */; };
+		BB38AD6523E12D2C00DE374F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB38AD6423E12D2C00DE374F /* Main.storyboard */; };
+		BB38AD6823E12D8E00DE374F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB38AD6723E12D8E00DE374F /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB38AD4A23E1285100DE374F /* Rainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB38AD4D23E1285100DE374F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB38AD4F23E1285100DE374F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB38AD5123E1285100DE374F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BB38AD5423E1285100DE374F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB38AD5623E1285300DE374F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB38AD5923E1285300DE374F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB38AD5B23E1285300DE374F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB38AD6423E12D2C00DE374F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		BB38AD6723E12D8E00DE374F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../../../../.Trash/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,47 @@
 		BB38AD4C23E1285100DE374F /* Rainbow */ = {
 			isa = PBXGroup;
 			children = (
-				BB38AD4D23E1285100DE374F /* AppDelegate.swift */,
-				BB38AD4F23E1285100DE374F /* SceneDelegate.swift */,
-				BB38AD5123E1285100DE374F /* ViewController.swift */,
-				BB38AD5323E1285100DE374F /* Main.storyboard */,
-				BB38AD5623E1285300DE374F /* Assets.xcassets */,
-				BB38AD5823E1285300DE374F /* LaunchScreen.storyboard */,
+				BB38AD6623E12D3900DE374F /* Models */,
+				BB38AD6323E12CC500DE374F /* Views */,
+				BB38AD6223E12CAC00DE374F /* View Controlers */,
+				BB38AD6123E12C0900DE374F /* Resources */,
 				BB38AD5B23E1285300DE374F /* Info.plist */,
 			);
 			path = Rainbow;
+			sourceTree = "<group>";
+		};
+		BB38AD6123E12C0900DE374F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB38AD6723E12D8E00DE374F /* ViewController.swift */,
+				BB38AD4D23E1285100DE374F /* AppDelegate.swift */,
+				BB38AD4F23E1285100DE374F /* SceneDelegate.swift */,
+				BB38AD5623E1285300DE374F /* Assets.xcassets */,
+				BB38AD5823E1285300DE374F /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BB38AD6223E12CAC00DE374F /* View Controlers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controlers";
+			sourceTree = "<group>";
+		};
+		BB38AD6323E12CC500DE374F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB38AD6423E12D2C00DE374F /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB38AD6623E12D3900DE374F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB38AD6523E12D2C00DE374F /* Main.storyboard in Resources */,
 				BB38AD5A23E1285300DE374F /* LaunchScreen.storyboard in Resources */,
 				BB38AD5723E1285300DE374F /* Assets.xcassets in Resources */,
-				BB38AD5523E1285100DE374F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB38AD5223E1285100DE374F /* ViewController.swift in Sources */,
+				BB38AD6823E12D8E00DE374F /* ViewController.swift in Sources */,
 				BB38AD4E23E1285100DE374F /* AppDelegate.swift in Sources */,
 				BB38AD5023E1285100DE374F /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +179,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BB38AD5323E1285100DE374F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB38AD5423E1285100DE374F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BB38AD5823E1285300DE374F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8825K9HH49;
 				INFOPLIST_FILE = Rainbow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8825K9HH49;
 				INFOPLIST_FILE = Rainbow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
